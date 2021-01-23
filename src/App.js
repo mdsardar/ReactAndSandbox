@@ -5,15 +5,17 @@ import Welcome from "./Components/Welcome";
 import Hello from "./Components/Hello";
 import Greet from "./Components/Greet";
 import Message from "./Components/Message";
+import Counter from "./Components/Counter";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        {<Counter />}
         {/* <MyComponent >*/}
         {/* <Welcome >*/}
         {/* <Hello /> */}
-        {<Message />}
+        {/* {<Message />} */}
       </div>
     );
   }
