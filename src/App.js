@@ -4,6 +4,7 @@ import MyComponent from "./Components/Greet";
 import Welcome from "./Components/Welcome";
 import Hello from "./Components/Hello";
 import Greet from "./Components/Greet";
+import Message from "./Components/Message";
 
 class App extends Component {
   render() {
@@ -12,15 +13,7 @@ class App extends Component {
         {/* <MyComponent >*/}
         {/* <Welcome >*/}
         {/* <Hello /> */}
-        <Greet name="Chan Batty" heroName="Good Lady">
-          <p> This is children node </p>
-        </Greet>
-        <Greet name="Diana" heroName="Queen">
-          <button>Action</button>
-        </Greet>
-        <Welcome name="Brude" heroName="Gentle Man" />
-        <Welcome name="Chan Batty" heroName="Good Lady" />
-        <Welcome name="Nalan" heroName="Mystic" />
+        {<Message />}
       </div>
     );
   }
