@@ -11,11 +11,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {<Counter />}
+        {/* {<Counter />} */}
         {/* <MyComponent >*/}
         {/* <Welcome >*/}
         {/* <Hello /> */}
         {/* {<Message />} */}
+        <Greet name = "Diana" heroName = "Queen" /> 
+        <Welcome name = "Nalan" heroName = "Diya" />
+
       </div>
     );
   }
